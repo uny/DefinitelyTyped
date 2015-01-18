@@ -1,6 +1,6 @@
-// Type definitions for Foundation 3.2
+// Type definitions for Foundation 5.4
 // Project: http://foundation.zurb.com/
-// Definitions by: Boris Yankov <https://github.com/borisyankov/>
+// Definitions by: Yuki Nagai <https://github.com//>
 // Definitions: https://github.com/borisyankov/DefinitelyTyped
 
 
@@ -79,10 +79,5 @@ interface JoyrideOptions {
 }
 
 interface JQuery {
-    orbit(): JQuery;
-    orbit(OrbitOptions): JQuery;
-    reveal(): JQuery;
-    reveal(RevealOptions): JQuery;
-    joyride(): JQuery;
-    joyride(JoyrideOptions): JQuery;
+    foundation();
 }
